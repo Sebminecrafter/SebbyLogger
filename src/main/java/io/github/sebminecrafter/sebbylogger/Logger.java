@@ -1,4 +1,4 @@
-package io.github.sebminecrafter.SebbyLogger;
+package io.github.sebminecrafter.sebbylogger;
 
 import java.util.Arrays;
 

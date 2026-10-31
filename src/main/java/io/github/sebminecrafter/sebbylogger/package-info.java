@@ -14,7 +14,6 @@
  * </ul>
  *
  * @author Sebminecrafter
- * @version 0.2
  * @see <a href="https://github.com/Sebminecrafter/SebbyLogger">GitHub Page</a>
  */
-package io.github.sebminecrafter.SebbyLogger;
+package io.github.sebminecrafter.sebbylogger;
