@@ -1,4 +1,3 @@
-
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
@@ -10,6 +9,28 @@
     <artifactId>sebbylogger</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
+
+    <name>SebbyLogger</name>
+    <description>SebbyLogger is a utility logger for general Java projects by Sebminecrafter</description>
+    <url>https://github.com/Sebminecrafter/SebbyLogger</url>
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <scm>
+        <connection>scm:git:https://github.com/Sebminecrafter/SebbyLogger.git</connection>
+        <developerConnection>scm:git:git@github.com:Sebminecrafter/SebbyLogger.git</developerConnection>
+        <url>https://github.com/Sebminecrafter/SebbyLogger</url>
+        <tag>HEAD</tag>
+    </scm>
+
+    <properties>
+        <maven.compiler.release>21</maven.compiler.release>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
 
     <distributionManagement>
         <repository>
@@ -30,6 +51,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.16.0</version>
                 <configuration>
                     <source>21</source>
                     <target>21</target>
