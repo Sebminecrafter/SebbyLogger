@@ -1,16 +1,14 @@
 /**
- * <h1>SebbyLogger</h1>
- * <h3>by Sebminecrafter</h3>
- * <h4>Utility logger for general Java projects</h4>
+ * <b>SebbyLogger</b>
+ * <p>by Sebminecrafter</p>
+ * <p>Lightweight utility logger for Java projects</p>
  *
+ * <p>Main features:</p>
  * <ul>
- *     <p>Main features:</p>
- *     <li>INFO</li>
- *     <li>DEBUG</li>
- *     <li>WARN</li>
- *     <li>ERROR</li>
- *     <li>ERROR/TRACE (Stack trace)</li>
+ *     <li>Timestamps</li>
  *     <li>Colored output</li>
+ *     <li>INFO/DEBUG/WARN/ERROR messages</li>
+ *     <li>TRACE messages (Current thread stack trace)</li>
  * </ul>
  *
  * @author Sebminecrafter
