@@ -30,7 +30,7 @@ public class Utils {
      * @return the current SebbyLogger version as a string
      */
     public static String getVersion() {
-        try (InputStream stream = Logger.class.getResourceAsStream("/version")) {
+        try (InputStream stream = Logger.class.getResourceAsStream("/io/github/sebminecrafter/sebbylogger/version")) {
             if (stream == null) {
                 return "Unknown";
             }
